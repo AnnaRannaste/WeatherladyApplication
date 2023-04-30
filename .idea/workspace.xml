@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4042cd9-15bb-4f27-b2fc-db1e6ba3e61e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WeatherAPIConnecton/HTTPConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherAPIConnecton/HTTPConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/Implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,33 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/RannastA/Documents/GitHub/PracticalProject/WheatherappAnna"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RannastA/Documents/GitHub/PracticalProject/WheatherappAnna&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="MainEntry" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RannastA\Documents\GitHub\PracticalProject\WheatherappAnna\src" />
       <recent name="C:\Users\RannastA\Documents\GitHub\PracticalProject\WheatherappAnna\target" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="WheatherappAnna" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="WheatherappAnna" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

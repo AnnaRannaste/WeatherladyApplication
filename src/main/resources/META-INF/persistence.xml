@@ -1,7 +1,7 @@
 <persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.1">
     <persistence-unit name="weatherlady">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>pkg.HibernateDemo.Location</class>
+        <!-- <class>pkg.HibernateDemo.Location</class> -->
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
@@ -16,3 +16,4 @@
     </persistence-unit>
 
 </persistence>
+
