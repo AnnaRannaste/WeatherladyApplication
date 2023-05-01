@@ -1,16 +1,16 @@
 create table location (
 id INT NOT NULL AUTO_INCREMENT,
-/*date DATE (DEFAULT NULL),*/
+date DATETIME,
 city varchar(255) NOT NULL,
 country varchar(255) NOT NULL,
 region varchar(255) DEFAULT NULL,
-latitude double DEFAULT NULL,
-longitude double DEFAULT NULL,
-temperature double DEFAULT NULL,
-pressure double NOT NULL,
-humidity double NOT NULL,
+latitude FLOAT,
+longitude FLOAT,
+temperature FLOAT,
+pressure FLOAT,
+humidity FLOAT,
 wind_direction varchar(255) DEFAULT NULL,
-wind_speed double NOT NULL,
+wind_speed FLOAT,
 PRIMARY KEY (id)
 );
 

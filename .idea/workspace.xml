@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4042cd9-15bb-4f27-b2fc-db1e6ba3e61e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locations/AddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherAPIConnecton/HTTPConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Implementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locations/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RannastA/Documents/GitHub/PracticalProject/WheatherappAnna&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RannastA/Documents/GitHub/PracticalProject/Other/Viktoria/weatherladyproject&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>

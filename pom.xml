@@ -24,16 +24,27 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.32</version>
         </dependency>
-        <dependency>
-            <groupId>top.jfunc.json</groupId>
-            <artifactId>json-gson</artifactId>
-            <version>1.8.3</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20230227</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.14.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
         </dependency>
     </dependencies>
 

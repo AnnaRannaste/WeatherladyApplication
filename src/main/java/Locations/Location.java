@@ -7,9 +7,16 @@ import jakarta.persistence.*;
 @Table(name = "location")
 
 public class Location {
+ //   @Id
+ //  @Column(name = "id", unique = true, nullable = false)
+//    private int id;
+
     @Id
-   @Column(name = "id", unique = true, nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "date", unique = true)
+    private String date;
 
     @Column(name="city", nullable = false)
 
@@ -23,25 +30,25 @@ public class Location {
     private String region;
 
     @Column(name="longitude", nullable = false)
-    private Double longitude;
+    private float longitude;
 
     @Column(name="latitude", nullable = false)
-    private Double latitude;
+    private float latitude;
 
     @Column(name="temperature", nullable = false)
-    private Double temperature;
+    private float temperature;
 
     @Column(name="pressure", nullable = false)
-    private Double pressure;
+    private float pressure;
 
     @Column(name="humidity", nullable = false)
-    private Double humidity;
+    private float humidity;
 
     @Column(name="wind_direction")
-    private Double wind_direction;
+    private String wind_direction;
 
     @Column(name="wind_speed", nullable = false)
-    private Double wind_speed;
+    private float wind_speed;
 
 
     public Location() {
@@ -56,6 +63,13 @@ public class Location {
         this.id = id;
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public String getCity() {
         return city;
@@ -85,59 +99,59 @@ public class Location {
     }
 
 
-    public Double getLongitude() {
+    public float getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(Double longitude) {
+    public void setLongitude(float longitude) {
         this.longitude = longitude;
     }
 
-    public Double getLatitude() {
+    public float getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(Double latitude) {
+    public void setLatitude(float latitude) {
         this.latitude = latitude;
     }
 
-    public Double getTemperature() {
+    public float getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(Double temperature) {
+    public void setTemperature(float temperature) {
         this.temperature = temperature;
     }
 
-    public Double getPressure() {
+    public float getPressure() {
         return pressure;
     }
 
-    public void setPressure(Double pressure) {
+    public void setPressure(float pressure) {
         this.pressure = pressure;
     }
 
-    public Double getHumidity() {
+    public float getHumidity() {
         return humidity;
     }
 
-    public void setHumidity(Double humidity) {
+    public void setHumidity(float humidity) {
         this.humidity = humidity;
     }
 
-    public Double getWind_direction() {
+    public String getWind_direction() {
         return wind_direction;
     }
 
-    public void setWind_direction(Double wind_direction) {
+    public void setWind_direction(String wind_direction) {
         this.wind_direction = wind_direction;
     }
 
-    public Double getWind_speed() {
+    public float getWind_speed() {
         return wind_speed;
     }
 
-    public void setWind_speed(Double wind_speed) {
+    public void setWind_speed(float wind_speed) {
         this.wind_speed = wind_speed;
     }
 }
