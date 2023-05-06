@@ -11,6 +11,7 @@ import java.util.Date;
 
 public class ConnectionTest {
 
+
         public static StringBuffer getWeatherRequest(String location, String dateStr) throws Exception {
 
             String apiKey = "4282a84e00e15a0807a9ebd10b844afe";

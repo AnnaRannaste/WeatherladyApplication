@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4042cd9-15bb-4f27-b2fc-db1e6ba3e61e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locations/AddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="63a088b4-5ebd-47c3-a1e0-1aa074ba7022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Options/CurrentWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Options/DisplayLocations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Options/SearchByDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Implementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locations/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Connections/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Connections/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/AddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/AddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,15 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RannastA/Documents/GitHub/PracticalProject/Other/Viktoria/weatherladyproject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/RannastA/Documents/GitHub/PracticalProject/Other/Viktoria",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MainEntry" />
@@ -62,7 +63,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4042cd9-15bb-4f27-b2fc-db1e6ba3e61e" name="Changes" comment="" />
+      <changelist id="63a088b4-5ebd-47c3-a1e0-1aa074ba7022" name="Changes" comment="" />
       <created>1682165948465</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

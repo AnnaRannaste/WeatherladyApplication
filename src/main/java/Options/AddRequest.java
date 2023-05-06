@@ -1,4 +1,4 @@
-package Locations;
+package Options;
 
 import Connections.HTTPConnection2;
 import Connections.HTTPConnection1;

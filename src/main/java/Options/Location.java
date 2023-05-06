@@ -1,4 +1,4 @@
-package Locations;
+package Options;
 
 import jakarta.persistence.*;
 
@@ -154,4 +154,8 @@ public class Location {
     public void setWind_speed(float wind_speed) {
         this.wind_speed = wind_speed;
     }
+
+
+
 }
+

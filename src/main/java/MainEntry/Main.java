@@ -1,7 +1,20 @@
 package MainEntry;
 
-import Locations.AddRequest;
+import Connections.HTTPConnection1;
+import Connections.HTTPConnection3;
+import Options.AddRequest;
+import Options.CurrentWeather;
+import Options.DisplayLocations;
+import Options.SearchByDate;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
+import java.io.StringReader;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +27,9 @@ public class Main {
             System.out.println("1- Add location");
             System.out.println("2- List previous searches");
             System.out.println("3- Current forecast ");
-            System.out.println("4- Exit");
+            System.out.println("4- Additional option - SearchByDate");
+            System.out.println("5- Exit");
+
 
             System.out.println("Choose an action: ");
 
@@ -47,15 +62,73 @@ public class Main {
                     break;
 
                 case 2:
-
+                    DisplayLocations table = new DisplayLocations();
+                    table.displayTable();
                     break;
                 case 3:
+//                    System.out.println("Enter city:");
+//                    Scanner scn2 = new Scanner(System.in);
+//
+//                    String enterCity = scn2.nextLine();
+
+                  //  System.out.println("http://dataservice.accuweather.com/forecasts/v1/daily/5day/" + locationKey + "?apikey=" + apiKey);
+
+//                    String jsonString = String.valueOf(HTTPConnection1.getWeatherRequest(enterCity));
+//                    CurrentWeather forecast = new CurrentWeather();
+//                    forecast.currentForecast(jsonString);
+
+                    System.out.println("Enter city:");
+
+                    Scanner scanner3 = new java.util.Scanner(System.in);
+                    String city = scanner3.nextLine();
+
+
+                    System.out.println("Enter date (YYYY-MM-DD):");
+
+                    String date = scanner3.nextLine();
+
+                    // Look up the location key for the specified city
+                    String locationKey = null;
+                    try {
+                        StringBuilder locationResponse = HTTPConnection3.getLocationRequest(city);
+                        JSONArray locationJsonArray = new JSONArray(locationResponse.toString());
+                        locationKey = locationJsonArray.getJSONObject(0).getString("Key");
+                    } catch (Exception e) {
+                        System.out.println("Error: " + e.getMessage());
+                        return;
+                    }
+
+                    try {
+                        StringBuilder forecastResponse = HTTPConnection3.getForecastRequest(locationKey, date);
+                        System.out.println(forecastResponse.toString());
+                    } catch (Exception e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
+
 
                     break;
+
+
                 case 4:
-                    System.out.println("Performing exit");
+                //    String startDateString = "2023-05-01 17:05:54";
+                //    String endDateString = "2023-05-02 20:20:49";
+
+                    String sqlStartDate = "2023-05-03";
+                    String sqlEndDate = "2023-05-05";
+
+                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+               //     Date startDate = sdf.parse(startDateString);
+              //      Date endDate = sdf.parse(endDateString);
+                    SearchByDate search = new SearchByDate();
+                    search.displayHistoricalData(sqlStartDate, sqlEndDate);
+                   // search.displayTable(startDate, endDate);
+                    break;
+
+                case 5:
+                    System.out.println("Performing exit..Good bye");
                     scanner.close();
                     break;
+
             }
         }
 
