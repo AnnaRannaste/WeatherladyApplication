@@ -1,21 +1,15 @@
 package MainEntry;
 
 import Connections.HTTPConnection1;
-import Connections.HTTPConnection3;
 import Options.AddRequest;
 import Options.CurrentWeather;
 import Options.DisplayLocations;
 import Options.SearchByDate;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
-import javax.json.Json;
-import javax.json.JsonObject;
-import javax.json.JsonReader;
-import java.io.StringReader;
+
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -26,7 +20,7 @@ public class Main {
 
             System.out.println("1- Add location");
             System.out.println("2- List previous searches");
-            System.out.println("3- Current forecast ");
+            System.out.println("3- Current forecast");
             System.out.println("4- Additional option - SearchByDate");
             System.out.println("5- Exit");
 
@@ -45,66 +39,104 @@ public class Main {
             switch (action) {
 
                 case 1:
-                    // Prompt user for city
-                    Scanner scanner1 = new Scanner(System.in);
-                    System.out.println("Enter city: ");
-                    String inputCity = scanner1.nextLine();
 
-                    //Date
-                    Scanner scanner2 = new Scanner(System.in);
-                    System.out.println("Enter date: ");
-                    String dateStr = scanner2.nextLine();
+                    System.out.println("Choose an option:");
+                    System.out.println("1. Enter city");
+                    System.out.println("or");
+                    System.out.println("2. Enter longitude");
 
-                    AddRequest add = new AddRequest();
-                    add.addLocation(inputCity);
+                    int locationOption = scanner.nextInt();
+                    scanner.nextLine(); // Consume the newline character
 
-                //    add.addLocation("inputCity", "dateStr");
+                    if (locationOption == 1) {
+                        System.out.println("Enter city: ");
+                        String inputCity = scanner.nextLine();
+
+                        AddRequest add = new AddRequest();
+                        add.addLocation(inputCity);
+
+                    } else if (locationOption == 2) {
+                        System.out.println("Enter longitude: ");
+                        String inputLongitude = scanner.nextLine();
+
+                        AddRequest add1 = new AddRequest();
+                        add1.addLocation(inputLongitude);
+                    } else {
+                        System.out.println("Invalid location option");
+                    }
                     break;
+
+
+
+
+
+
+
+//                    double longitude;
+//                    // Prompt user for city
+//
+//                    Scanner scanner1 = new Scanner(System.in);
+//                    System.out.println("Enter city: ");
+//                    String inputCity = scanner1.nextLine();
+//
+//                    //Date
+//                 //   Scanner scanner2 = new Scanner(System.in);
+//                 //   System.out.println("Enter date: ");
+//                //    String dateStr = scanner2.nextLine();
+//
+//                    AddRequest add = new AddRequest();
+//                    add.addLocation(inputCity);
+//
+//                //    add.addLocation("inputCity", "dateStr");
+//                    break;
+
+
+
 
                 case 2:
                     DisplayLocations table = new DisplayLocations();
                     table.displayTable();
                     break;
                 case 3:
-//                    System.out.println("Enter city:");
-//                    Scanner scn2 = new Scanner(System.in);
-//
-//                    String enterCity = scn2.nextLine();
-
-                  //  System.out.println("http://dataservice.accuweather.com/forecasts/v1/daily/5day/" + locationKey + "?apikey=" + apiKey);
-
-//                    String jsonString = String.valueOf(HTTPConnection1.getWeatherRequest(enterCity));
-//                    CurrentWeather forecast = new CurrentWeather();
-//                    forecast.currentForecast(jsonString);
-
                     System.out.println("Enter city:");
+                    Scanner scn2 = new Scanner(System.in);
 
-                    Scanner scanner3 = new java.util.Scanner(System.in);
-                    String city = scanner3.nextLine();
+                    String enterCity = scn2.nextLine();
 
+                 //   System.out.println("http://dataservice.accuweather.com/forecasts/v1/daily/5day/" + locationKey + "?apikey=" + apiKey);
 
-                    System.out.println("Enter date (YYYY-MM-DD):");
+                    String jsonString = String.valueOf(HTTPConnection1.getWeatherRequest(enterCity));
+                    CurrentWeather forecast = new CurrentWeather();
+                    forecast.currentForecast(jsonString);
 
-                    String date = scanner3.nextLine();
-
-                    // Look up the location key for the specified city
-                    String locationKey = null;
-                    try {
-                        StringBuilder locationResponse = HTTPConnection3.getLocationRequest(city);
-                        JSONArray locationJsonArray = new JSONArray(locationResponse.toString());
-                        locationKey = locationJsonArray.getJSONObject(0).getString("Key");
-                    } catch (Exception e) {
-                        System.out.println("Error: " + e.getMessage());
-                        return;
-                    }
-
-                    try {
-                        StringBuilder forecastResponse = HTTPConnection3.getForecastRequest(locationKey, date);
-                        System.out.println(forecastResponse.toString());
-                    } catch (Exception e) {
-                        System.out.println("Error: " + e.getMessage());
-                    }
-
+//                    System.out.println("Enter city:");
+//
+//                    Scanner scanner3 = new java.util.Scanner(System.in);
+//                    String city = scanner3.nextLine();
+//
+//
+//                    System.out.println("Enter date (YYYY-MM-DD):");
+//
+//                    String date = scanner3.nextLine();
+//
+//                    // Look up the location key for the specified city
+//                    String locationKey = null;
+//                    try {
+//                        StringBuilder locationResponse = HTTPConnection3.getLocationRequest(city);
+//                        JSONArray locationJsonArray = new JSONArray(locationResponse.toString());
+//                        locationKey = locationJsonArray.getJSONObject(0).getString("Key");
+//                    } catch (Exception e) {
+//                        System.out.println("Error: " + e.getMessage());
+//                        return;
+//                    }
+//
+//                    try {
+//                        StringBuilder forecastResponse = HTTPConnection3.getForecastRequest(locationKey, date);
+//                        System.out.println(forecastResponse.toString());
+//                    } catch (Exception e) {
+//                        System.out.println("Error: " + e.getMessage());
+//                    }
+//
 
                     break;
 

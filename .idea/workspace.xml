@@ -4,37 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="63a088b4-5ebd-47c3-a1e0-1aa074ba7022" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-    <list default="true" id="f4042cd9-15bb-4f27-b2fc-db1e6ba3e61e" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connections/HTTPConnection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locations/AddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Implementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locations/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locations/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Connections/PersistenceConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Connections/PersistenceConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locations/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locations/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainEntry/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeatherAPIConnecton/HTTPConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Implementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weatherlady/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Options/AddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/AddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Options/AddRequestLongitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/AddRequestLongitude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Options/DisplayLocations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/DisplayLocations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Options/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Options/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/HibernateUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/HibernateUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/TestingHibernateUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/TestingHibernateUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
->>>>>>> 3bde0b1c9b4b16afa96bcbfb9d61d59b0f6f5447
->>>>>>> 4e7d2297cd2c684a0f05fdf7143c86467f47109d
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdditionalTest/AdditionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdditionalTest/AdditionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Options/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Options/LocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestingHibernateUtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestingHibernateUtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/json/ParseJSONTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/json/ParseJSONTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testing/connections/HibernateUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testing/connections/HibernateUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -54,32 +43,148 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2OmVrr5uepJeVsmtuBAJhxvogc2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RannastA/Documents/GitHub/PracticalProject/Other/Viktoria&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "last_opened_file_path": "C:/Users/Anja/Desktop/Java/PracticalProject/Weatherladyapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47586206",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "spring.configuration.checksum": "71614337ac059ae6ada706847853f4fd",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MainEntry" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RannastA\Documents\GitHub\PracticalProject\Weatherladyapp - For Testing\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RannastA\Documents\GitHub\PracticalProject\WheatherappAnna\src" />
       <recent name="C:\Users\RannastA\Documents\GitHub\PracticalProject\WheatherappAnna\target" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Utilities" />
+      <recent name="Options" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AddtionalLocationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WheatherappMine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdditionalTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdditionalTest" />
+      <option name="MAIN_CLASS_NAME" value="AdditionalTest.AddtionalLocationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddtionalLocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Weatherladyapp - For Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdditionalTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdditionalTest" />
+      <option name="MAIN_CLASS_NAME" value="AdditionalTest.AddtionalLocationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingHibernateUtilitiesTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Weatherladyapp - For Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.TestingHibernateUtilitiesTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingHibernateUtilitiesTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Weatherladyapp - For Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.TestingHibernateUtilitiesTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingHibernateUtilitiesTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Weatherladyapp - For Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utilities" />
+      <option name="MAIN_CLASS_NAME" value="Utilities.TestingHibernateUtilitiesTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddtionalLocationTest (1)" />
+        <item itemvalue="JUnit.AddtionalLocationTest" />
+        <item itemvalue="JUnit.TestingHibernateUtilitiesTest.testCreate" />
+        <item itemvalue="JUnit.TestingHibernateUtilitiesTest.testUpdate" />
+        <item itemvalue="JUnit.TestingHibernateUtilitiesTest.testList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,8 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682165948465</updated>
+      <workItem from="1692349150119" duration="3243000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

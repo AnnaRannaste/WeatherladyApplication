@@ -50,9 +50,15 @@ public class Location {
     @Column(name="wind_speed", nullable = false)
     private float wind_speed;
 
+    protected Location() {
 
-    public Location() {
+    }
 
+    public Location(String city, String country, String region) {
+
+        this.city = city;
+        this.region = region;
+        this.country = country;
     }
 
     public int getId() {

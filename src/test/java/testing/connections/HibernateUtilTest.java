@@ -1,2 +1,4 @@
-package testing.connections;public class HibernateUtilTest {
+package testing.connections;
+
+public class HibernateUtilTest {
 }

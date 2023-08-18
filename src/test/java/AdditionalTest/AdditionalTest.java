@@ -1,2 +1,4 @@
-package AdditionalTest;public class AdditionalTest {
+package AdditionalTest;
+
+public class AdditionalTest {
 }

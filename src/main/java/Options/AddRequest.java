@@ -24,6 +24,7 @@ public class AddRequest {
 
         //String response1 = String.valueOf(ConnectionTest.getWeatherRequest(typeCity, dateStr));
         String response1 = String.valueOf(HTTPConnection1.getWeatherRequest(typeCity)); //HHTPConnection 1
+
         ObjectMapper mapper1 = new ObjectMapper(); //class is used to parse this string into a JsonNode object jsonNode
         JsonNode jsonNode1 = mapper1.readTree(response1); // navigates the JsonNode tree to extract values
 

@@ -1,2 +1,4 @@
-package Utilities;public interface HibernateUtilities {
+package Utilities;
+
+public interface HibernateUtilities {
 }
