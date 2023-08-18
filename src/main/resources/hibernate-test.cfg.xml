@@ -1,0 +1,20 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">
+            org.hsqldb.jdbcDriver
+        </property>
+        <property name="connection.url">
+            jdbc:hsqldb:mem:mydb
+        </property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">1My_sql!SQL</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">create</property>
+
+    </session-factory>
+</hibernate-configuration>
